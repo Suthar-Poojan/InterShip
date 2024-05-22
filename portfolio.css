@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 700px;
+    text-align: center;
+    background-image: url(1_4AbaUcH4yLfqtFbpsd5-NQ.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p
+{
+    font-size: 100px;
+    border-radius: 40px;
+    color: #86469C;
+    font-family: cursive;
+}
+
+
+a
+{
+    display: block;
+    margin-top: 20px;
+    font-size: 30px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #704264;
+    font-family: monospace;
+}

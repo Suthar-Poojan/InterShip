@@ -1,0 +1,390 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    width: 1520px;
+    height: 150px;
+    background-color: rgb(255, 255, 255 ,0.9);
+}
+
+.logo
+{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.logo img
+{
+    width: 150px;
+    height: 150px;
+    margin-left: 30%;
+}
+
+.menu
+{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-content: center;
+}
+
+
+.menu ul li
+{
+    float: left;
+    list-style: none;
+}
+
+.menu ul li a
+{
+    text-decoration: none;
+    padding: 62px 40px;
+    display: block;
+    font-size: larger;
+    font-family: cursive;
+    color: #222831;
+}
+
+.menu ul li:hover
+{
+    background-color: #135D66;   
+}
+
+.menu ul li a:hover
+{
+    color: #B3C8CF;
+}
+
+.contant
+{
+    margin: 0px;
+    width: 100%;
+
+}
+
+.about
+{
+    width: 100%;
+    height: 400px;
+    background-image: url(313016.jpg);
+}
+
+.info
+{
+    width: 60%;
+    float: left;
+    padding-top: 100px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.info p
+{
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.img_1
+{
+    width: 40%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.skill
+{
+    padding-top: 20px;
+    padding-bottom: 20px ;
+    text-align: center;
+    background-image: url(360_F_561713958_uyAllvElPalXcyGHQnJUpeh31y6dIqwE.jpg);
+}
+
+.skill h1
+{
+    margin-bottom: 10px;
+    color: #082e33;
+}
+
+.sk
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sk p
+{
+    width: 60%;
+    color: #135D66;
+}
+
+.project
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #28dbe6;
+}
+
+.pro_img_1
+{
+    position: absolute;
+    margin-top: 120px;
+    left: 450px;
+}
+
+.pro_img_1 a
+{
+    text-decoration: none;
+}
+
+.pro_img_1 img
+{
+    display: block;
+    margin-left: 20px;
+}
+
+.pro_img_1 p
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+.pro_img_1:hover
+{
+    background-color: rgb(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.pro_img_2
+{
+    position: absolute;
+    margin-top: 220px;
+    left: 450px;
+}
+
+.pro_img_2 a
+{
+    text-decoration: none;
+}
+
+.pro_img_2 img
+{
+    display: block;
+    margin-left: 20px;
+}
+
+.pro_img_2 p
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+.pro_img_2:hover
+{
+    background-color: rgb(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.pro_img_3
+{
+    position: absolute;
+    margin-top: 320px;
+    left: 450px;
+}
+
+.pro_img_3 a
+{
+    text-decoration: none;
+}
+
+.pro_img_3 img
+{
+    display: block;
+    margin-left: 20px;
+}
+
+.pro_img_3 p
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+.pro_img_3:hover
+{
+    background-color: rgb(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.resume
+{
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    background-image: url(360_F_561713958_uyAllvElPalXcyGHQnJUpeh31y6dIqwE.jpg);
+}
+
+.resume p
+{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    color: #135D66  ;
+}
+
+.resume a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    margin-left: 45%;
+    border-radius: 20px;
+    border: 2px solid #135D66;
+    text-decoration: none;
+    color: #135D66;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.resume a:hover
+{
+    color: black;
+    border: 2px solid black;
+}
+
+.contact
+{
+    width: 100%;
+    height: 507.67px;
+    background-color: #4D869C;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info
+{
+    width: 292.5px;
+    height: 327.7px;
+    float: left;
+}
+
+.contact-info h3
+{
+    width: 262.5px;
+    height: 26.39px;
+    margin-top: 66px;
+    font-size: 24px;
+    color: #373737;
+}
+
+.contact-info address
+{
+    margin-top: 20px;
+    font-size: 18px;
+    font-style: unset;
+    color: #373737;
+}
+
+.contact-section
+{
+    width: 457.5px;
+    height: 350px;
+    float: left;
+    margin-top: 66px;
+    color: #373737;
+}
+
+.contact-section h3
+{
+    font-size: 24px;
+}
+
+.c input
+{
+    width: 457.5px;
+    height: 44px;
+    margin-top: 17px;
+    font-size: 18px;
+}
+
+.c textarea
+{
+    width: 457.5px;
+    height: 90px;
+    margin-top: 17px;
+    font-size: 20px;
+}
+
+.c input::placeholder
+{
+    font-size: 18px;
+    color: #797979;
+}
+
+.c textarea::placeholder
+{
+    float: left;
+    font-size: 20px;
+    color: #797979;
+}
+
+.form-control
+{
+    float: right;
+    width: 119.8px;
+    height: 46.28px;
+    margin-top: 20px;
+    color: #4D869C;
+    background-color: #373737;
+    font-size: 24px;
+    border: 1px solid transparent;
+}
+
+.form-control:hover
+{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(46, 46, 46);
+}
+
+.footer 
+{
+    width: 100%;
+    height: 137.13px;
+    background-color: #212121;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.footer p
+{
+    width: 460px;
+    margin-top: 37px;
+    margin-left: 472px;
+    float: left;
+}
+
+.footer a
+{
+    color: #B3C8CF;
+    text-decoration: none;
+}
+
+.footer a:hover
+{
+    color: #135D66;
+}
